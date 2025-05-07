@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SolScript - Controle de Iluminação com ESP8266</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: linear-gradient(to right, #f9d976, #f39f86);
+      color: #333;
+      margin: 0;
+      padding: 0;
+      text-align: center;
+    }
+    header {
+      padding: 50px 20px;
+    }
+    h1 {
+      font-size: 3em;
+      margin-bottom: 10px;
+    }
+    p {
+      font-size: 1.2em;
+      max-width: 600px;
+      margin: 0 auto;
+    }
+    a.button {
+      display: inline-block;
+      margin-top: 30px;
+      padding: 15px 30px;
+      background-color: #ff914d;
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+      border-radius: 8px;
+      transition: background-color 0.3s;
+    }
+    a.button:hover {
+      background-color: #ff7a26;
+    }
+    footer {
+      margin-top: 60px;
+      padding: 20px;
+      font-size: 0.9em;
+      color: #666;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>SolScript</h1>
+    <p>Uma linguagem personalizada para controle de iluminação com ESP8266, sincronizada com o nascer e pôr do sol.</p>
+    <a class="button" href="https://github.com/gustavo812050/SolScript" target="_blank">Ver Projeto no GitHub</a>
+  </header>
+  <footer>
+    &copy; 2025 Gustavo Campos Manso. Projeto de Automação Industrial.
+  </footer>
+</body>
+</html>
